@@ -4,7 +4,7 @@ browserSync = require('browser-sync')
 gulp.task 'watch', ->
   browserSync
     server: "html",
-    files: ["html/**/*.html","html/**/*.js"]
+    files: ["html/**/*"]
 
 gulp.task 'default', ->
   gulp.start 'watch'
